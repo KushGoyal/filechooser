@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">File Chooser</string>
+
+    <string name="label_selected_file_name">Selected File</string>
+    <string name="label_button_select_file">Select File</string>
+    <string name="image_description_file_type">File Type</string>
+    <string name="title_dialog_select_file">Confirm Selection</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="?android:colorBackground">
+
+    <Button
+        android:id="@+id/button_parent_dir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+        android:drawableStart="@drawable/ic_chevron_left_black_24dp"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black" />
+
+    <ListView
+        android:id="@+id/list_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_parent_dir" />
+
+</RelativeLayout>
